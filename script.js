@@ -45,7 +45,7 @@ const swiper = new Swiper('.slider-wrapper', {
     }
   });
   // Animate brands on scroll
-const brandCards = document.querySelectorAll('.brand-card');
+const brandCards = document.querySelectorAll('.brand-card,.menu-image');
 
 const brandObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
